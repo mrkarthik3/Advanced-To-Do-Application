@@ -19,7 +19,7 @@ mongodb.connect(
     // we just connected to...
     db = client.db();
     // This will select mongodb database
-    app.listen(3000);
+    app.listen(process.env.PORT || 3000);
     // You should start listening only after
     // establishing a connection to your db
     // So, start listening after connecting to db

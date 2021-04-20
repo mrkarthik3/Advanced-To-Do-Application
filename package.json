@@ -16,6 +16,7 @@
     "watch": "nodemon server"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sai Karthik",
   "license": "ISC"
+  
 }
